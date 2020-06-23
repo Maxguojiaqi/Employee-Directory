@@ -1,26 +1,24 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Discover from "./pages/Discover";
-import About from "./pages/About";
-import Search from "./pages/Search";
-import Navbar from "./components/Navbar";
+// import { BrowserRouter as Router, Route } from "react-router-dom";
+// import Discover from "./pages/Discover";
+// import About from "./pages/About";
+// import Search from "./pages/Search";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import Table from "./components/Table";
 
 function App() {
   return (
-    <Router>
+    // <Router>
       <div>
-        <Navbar />
+        <Header />
         <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/discover" component={Discover} />
-          <Route exact path="/search" component={Search} />
-        </Wrapper>
+        <Table/>
         <Footer />
+        </Wrapper>
       </div>
-    </Router>
+    // </Router>
   );
 }
 
