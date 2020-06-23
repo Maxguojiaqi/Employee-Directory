@@ -5,16 +5,16 @@ function Table(){
     return (
         <table
         id="table"
-        data-toggle="table"
-        data-height="700"
         data-sort-name="name"
         data-sort-order="desc"
-        data-url="sampleData.json">
+        data-search-align="left"
+        data-url="sampleData.json"
+        data-filter-control="true">
         <thead>
             <tr>
             <th data-field="id" data-sortable="true">ID</th>
-            <th data-field="name" data-sortable="true">Employee Name</th>
-            <th data-field="position" data-sortable="true">Employee Title</th>
+            <th data-field="name" data-filter-control="select">Employee Name <u>(use dropdown below to filter)</u></th>
+            <th data-field="position" data-filter-control="select">Employee Position <u>(use dropdown below to filter)</u></th>
             </tr>
         </thead>
         </table>

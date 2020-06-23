@@ -1,10 +1,12 @@
 import React from "react";
-import "./style.css";
 
 function Footer() {
+  
   return (
-    <footer className="mt-2 footer">
-      <span>Employee Directory - Max Guo 2020</span>
+    <footer className="p-2 bg-secondary">
+      <span>
+        <h5 className = "mt-2 text-center">by Max Guo - 2020</h5>
+        </span>
     </footer>
   );
 }
