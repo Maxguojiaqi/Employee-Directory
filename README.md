@@ -33,7 +33,7 @@ User could filter table by Employee position and Employee name, User could sort 
 ## Demo
 ![appDemo1](./demo/demo.JPG)
 
-Demo Link : https://still-stream-00919.herokuapp.com/
+Demo Link : https://maxguojiaqi.github.io/Employee-Directory/
 
 ## Contributing
 
