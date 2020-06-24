@@ -1,7 +1,6 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-// import "./style.css";
 
+// use below Header component to render the table
 
 function Header(){
     return (

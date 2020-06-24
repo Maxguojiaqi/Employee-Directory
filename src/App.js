@@ -10,7 +10,6 @@ import Table from "./components/Table";
 
 function App() {
   return (
-    // <Router>
       <div>
         <Header />
         <Wrapper>
@@ -18,7 +17,6 @@ function App() {
         <Footer />
         </Wrapper>
       </div>
-    // </Router>
   );
 }
 

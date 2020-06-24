@@ -1,7 +1,8 @@
 import React from "react";
 
+// use below Footer component to render the table
+
 function Footer() {
-  
   return (
     <footer className="p-2 bg-secondary">
       <span>

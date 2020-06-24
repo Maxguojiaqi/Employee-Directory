@@ -1,6 +1,7 @@
 import React from "react";
 
-
+// use below table component to render the table
+// using the bootstrap-table library
 function Table(){
     return (
         <table
@@ -13,8 +14,8 @@ function Table(){
         <thead>
             <tr>
             <th data-field="id" data-sortable="true">ID</th>
-            <th data-field="name" data-filter-control="select">Employee Name <u>(use dropdown below to filter)</u></th>
-            <th data-field="position" data-filter-control="select">Employee Position <u>(use dropdown below to filter)</u></th>
+            <th data-field="name" data-filter-control="input">Employee Name <u>(use below [inputbox] to filter)</u></th>
+            <th data-field="position" data-filter-control="select">Employee Position <u>(use below [dropdown] to filter)</u></th>
             </tr>
         </thead>
         </table>
